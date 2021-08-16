@@ -1,5 +1,6 @@
 import React from "react"
 import SecondComponent from "./SecondComponent";
+import PropTypes from "prop-types"
 class PassingProps extends React.Component{
   render(){
     console.log(this.props)
@@ -13,5 +14,11 @@ class PassingProps extends React.Component{
     )
   }
 }
+
+PassingProps.propTypes={
+  name:PropTypes.string
+}
+
+
 export default PassingProps;
 

@@ -1,10 +1,9 @@
 import React from "react"
-import StateVariable from "./StateVariable";
 
 class SetStateMethod extends React.Component{
   constructor(){
     super();
-    this.state={
+   this.state={
       name:"suprava",
       email:"suprava@gmail.com"
     }
