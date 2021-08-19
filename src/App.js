@@ -13,7 +13,7 @@ class App extends React.Component {
       <>
           {/* <Welcome />
           <Welcometwo/> */}
-          <PassingProps name="" roll={202}/>
+          {/* <PassingProps name="" roll={202}/> */}
           {/* <PassingProps name="sriya" roll={204}/>
           <PassingProps name="Rima" roll={205}/> */}
           {/* <StateVariable/> */}
@@ -21,7 +21,7 @@ class App extends React.Component {
           {/* <ChangeEvent/> */}
           {/* <Add/> */}
           {/* <Array/> */}
-          {/* <ArrayOfObjects/> */}
+          <ArrayOfObjects/>
       </>
     )
   }
