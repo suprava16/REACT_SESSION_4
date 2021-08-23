@@ -7,6 +7,7 @@ import ChangeEvent from "./Components/State/ChangeEvent"
 import Add from "./Components/State/Add"
 import Array from "./Components/Array/Array"
 import ArrayOfObjects from "./Components/Array/ArrayOfObjects"
+import ConditionalRendering from "./Components/ConditionalRendering/ConditionalRendering"
 class App extends React.Component {
   render() {
     return (
@@ -21,7 +22,8 @@ class App extends React.Component {
           {/* <ChangeEvent/> */}
           {/* <Add/> */}
           {/* <Array/> */}
-          <ArrayOfObjects/>
+          {/* <ArrayOfObjects/> */}
+          <ConditionalRendering/>
       </>
     )
   }
