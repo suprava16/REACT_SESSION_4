@@ -1,5 +1,16 @@
 import React from "react"
-
+import "../Style.css"
+const style={
+  root:{
+    color:"green",
+    backgroundColor:"yellow",
+    padding:40
+  },
+  paragraph:{
+    color:"red",
+    backgroundColor:"black"
+  }
+}
 export default class ConditionalRendering extends React.Component{
   constructor(){
     super();
@@ -22,12 +33,16 @@ export default class ConditionalRendering extends React.Component{
     // }
     return(
       <div>
-        {/* {this.state.isLoggedIn===true?<h1>heading</h1>:<h2>Else part</h2>}
-        <input type="text" onChange={this.handleChange}/>
-        <button disabled={this.state.input_text===""?true:false}>Add</button> */}
-        {this.state.isLoggedIn===false &&
-        <h1>single if statement</h1>}
+        {/* {this.state.isLoggedIn===true?<h1>heading</h1>:<h2>Else part</h2>}  */}
+        {/* <input type="text" onChange={this.handleChange}/>
+        <button disabled={this.state.input_text===""?true:false}>Add</button>  */}
+        {/* {this.state.isLoggedIn===true &&
+        <h1>single if statement</h1>} */}
 
+        <h1 style={{backgroundColor:"red",marginTop:40,color:"white"}}>Heading</h1>
+        <p style={style.paragraph}>hello everyone</p>
+        <h2 className="heading">Heading 2</h2>
+        <h1 style={style.root}>CSS OBJECT</h1>
       </div>
     )
   }
