@@ -8,6 +8,8 @@ import Add from "./Components/State/Add"
 import Array from "./Components/Array/Array"
 import ArrayOfObjects from "./Components/Array/ArrayOfObjects"
 import ConditionalRendering from "./Components/ConditionalRendering/ConditionalRendering"
+import TodoObject from "./Components/Array/TodoObject"
+import Main from "./Components/LifeCycle/Main"
 class App extends React.Component {
   render() {
     return (
@@ -23,7 +25,9 @@ class App extends React.Component {
           {/* <Add/> */}
           {/* <Array/> */}
           {/* <ArrayOfObjects/> */}
-          <ConditionalRendering/>
+          {/* <ConditionalRendering/> */}
+          {/* <TodoObject/> */}
+          <Main/>
       </>
     )
   }
