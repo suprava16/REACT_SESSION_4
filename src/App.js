@@ -10,6 +10,7 @@ import ArrayOfObjects from "./Components/Array/ArrayOfObjects"
 import ConditionalRendering from "./Components/ConditionalRendering/ConditionalRendering"
 import TodoObject from "./Components/Array/TodoObject"
 import Main from "./Components/LifeCycle/Main"
+import FetchApi from "./Components/Api/fetch_api"
 class App extends React.Component {
   render() {
     return (
@@ -27,7 +28,8 @@ class App extends React.Component {
           {/* <ArrayOfObjects/> */}
           {/* <ConditionalRendering/> */}
           {/* <TodoObject/> */}
-          <Main/>
+          {/* <Main/> */}
+          <FetchApi/>
       </>
     )
   }

@@ -25,6 +25,8 @@ export default class ArrayOfObjects extends React.Component {
       ]
     }
   }
+
+
   handlePush = () => {
     var temp = this.state.user
     temp.push({
