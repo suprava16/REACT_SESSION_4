@@ -2,12 +2,15 @@ import React from "react"
 export default class TodoObject extends React.Component{
   constructor(){
     super();
+    var today = new Date(),
+    date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
       this.state={
         task_arr:[],
+       
         arr:[
           {
             input_text:"",
-            input_date:"",
+            input_date:date,
             input_time:""
           }
         ],
