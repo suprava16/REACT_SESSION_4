@@ -9,7 +9,7 @@ export default class FetchApi extends React.Component{
   }
   componentDidMount(){
     fetch("https://reqres.in/api/users?page=2")
-    .then((res)=>(res.json()))
+    .then((response)=>(response.json()))
     .then((result)=>{
       console.log(result);
       this.setState({
@@ -18,9 +18,17 @@ export default class FetchApi extends React.Component{
     })
   }
   render(){
+    console.log(this.state.users)
     return(
       <div>
-        <h1>hello</h1>
+        {this.state.users.map((u,index)=>{
+          return(
+            <>
+            <h1>{u.first_name}</h1>
+            <img src={u.avatar} alt="images"></img>
+            </>
+          )
+        })}
       </div>
     )
   }

@@ -11,6 +11,7 @@ import ConditionalRendering from "./Components/ConditionalRendering/ConditionalR
 import TodoObject from "./Components/Array/TodoObject"
 import Main from "./Components/LifeCycle/Main"
 import FetchApi from "./Components/Api/fetch_api"
+import Post_api from "./Components/Api/post_api"
 class App extends React.Component {
   render() {
     return (
@@ -29,7 +30,8 @@ class App extends React.Component {
           {/* <ConditionalRendering/> */}
           {/* <TodoObject/> */}
           {/* <Main/> */}
-          <FetchApi/>
+          {/* <FetchApi/> */}
+          <Post_api/>
       </>
     )
   }
