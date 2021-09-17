@@ -12,6 +12,7 @@ import TodoObject from "./Components/Array/TodoObject"
 import Main from "./Components/LifeCycle/Main"
 import FetchApi from "./Components/Api/fetch_api"
 import Post_api from "./Components/Api/post_api"
+import Routing from "./Components/React_Router/Routing"
 class App extends React.Component {
   render() {
     return (
@@ -31,7 +32,8 @@ class App extends React.Component {
           {/* <TodoObject/> */}
           {/* <Main/> */}
           {/* <FetchApi/> */}
-          <Post_api/>
+          {/* <Post_api/> */}
+          <Routing/>
       </>
     )
   }
