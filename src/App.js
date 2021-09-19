@@ -13,6 +13,9 @@ import Main from "./Components/LifeCycle/Main"
 import FetchApi from "./Components/Api/fetch_api"
 import Post_api from "./Components/Api/post_api"
 import Routing from "./Components/React_Router/Routing"
+import Greet from "./Components/functional_component/Greet"
+import Hook_State from "./Components/functional_component/hook_state"
+import Hook_object from "./Components/functional_component/Hook_object"
 class App extends React.Component {
   render() {
     return (
@@ -33,7 +36,10 @@ class App extends React.Component {
           {/* <Main/> */}
           {/* <FetchApi/> */}
           {/* <Post_api/> */}
-          <Routing/>
+          {/* <Routing/> */}
+          {/* <Greet name="suprava"/> */}
+          {/* <Hook_State/> */}
+          <Hook_object/>
       </>
     )
   }
