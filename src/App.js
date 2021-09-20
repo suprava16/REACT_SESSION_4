@@ -16,6 +16,7 @@ import Routing from "./Components/React_Router/Routing"
 import Greet from "./Components/functional_component/Greet"
 import Hook_State from "./Components/functional_component/hook_state"
 import Hook_object from "./Components/functional_component/Hook_object"
+import Grid_system from "./Components/MaterialUi/Grid_system"
 class App extends React.Component {
   render() {
     return (
@@ -36,10 +37,11 @@ class App extends React.Component {
           {/* <Main/> */}
           {/* <FetchApi/> */}
           {/* <Post_api/> */}
-          {/* <Routing/> */}
+          <Routing/>
           {/* <Greet name="suprava"/> */}
           {/* <Hook_State/> */}
-          <Hook_object/>
+          {/* <Hook_object/> */}
+          {/* <Grid_system/> */}
       </>
     )
   }
