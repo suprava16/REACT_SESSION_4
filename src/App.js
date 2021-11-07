@@ -17,6 +17,8 @@ import Greet from "./Components/functional_component/Greet"
 import Hook_State from "./Components/functional_component/hook_state"
 import Hook_object from "./Components/functional_component/Hook_object"
 import Grid_system from "./Components/MaterialUi/Grid_system"
+import ClickCounter from "./Components/HigherOrder/ClickCounter"
+import HoverCounter from "./Components/HigherOrder/HoverCounter"
 class App extends React.Component {
   render() {
     return (
@@ -42,6 +44,8 @@ class App extends React.Component {
           {/* <Hook_State/> */}
           {/* <Hook_object/> */}
           {/* <Grid_system/> */}
+          <ClickCounter/>
+          <HoverCounter/>
       </>
     )
   }
